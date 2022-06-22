@@ -6,24 +6,24 @@ const Navbar = () => {
 
     return (
         <>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 -my-4 container px-6 md:px-2 mx-auto">
                 <div class="flex-1">
-                    <ul class="menu menu-horizontal p-0">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 3</a></li>
+                    <ul class=" menu-horizontal p-0">
+                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Top Products</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Trendings</a></li>
                     </ul>
                 </div>
                 <div class="flex-none">
-                    <ul class="menu menu-horizontal p-0">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 3</a></li>
+                    <ul class=" menu-horizontal p-0">
+                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Blogs</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>About Us</a></li>
                     </ul>
                 </div>
             </div>
 
 
-            <nav className="bg-white shadow">
-                <div className="container px-6 py-3 mx-auto md:flex">
+            <nav className="bg-gray-50 shadow">
+                <div className="container px-6 md:px-2 py-3 mx-auto md:flex">
                     <div className="flex items-center justify-between">
                         <div>
                             <a className="text-2xl font-bold text-gray-800 transition-colors duration-200 transform lg:text-3xl hover:text-gray-700 " href="#">JOURNAL</a>
@@ -37,21 +37,42 @@ const Navbar = () => {
                             </button>
                         </div>
                     </div>
-                    {/* Mobile Menu open: "block", Menu closed: "hidden" */}
-                    <div className={open ? "w-full md:flex md:items-center md:justify-between" : "w-full md:flex md:items-center md:justify-between hidden"}>
+                    <div className={open ? "w-full md:flex md:items-center md:justify-end" : "w-full md:flex md:items-center md:justify-end hidden"}>
 
                         <div className="relative ml-12">
-                            <input type="text" className="w-full py-2 pl-10 pr-56 text-gray-700 bg-white border rounded-md focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search" />
-                            <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                                <svg className="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+                            <input type="text" className="w-full py-2 pl-12 pr-56 text-gray-700 bg-white border rounded-md focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search" />
+                            <span className="absolute inset-y-0 left-0 flex items-center px-3 bg-blue-700">
+                                <svg className="w-5 h-5 text-gray-100" viewBox="0 0 24 24" fill="none">
                                     <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </span>
                         </div>
+                    </div>
+                    {/* Mobile Menu open: "block", Menu closed: "hidden" */}
+                    <div className={open ? "w-full md:flex md:items-center md:justify-end" : "w-full md:flex md:items-center md:justify-end hidden"}>
+
+
                         <div className="flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0">
                             <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:bg-gray-900 hover:text-gray-100 md:mx-2">Home</a>
                             <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:bg-gray-900 hover:text-gray-100 md:mx-2">About</a>
-                            <a href="#" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:bg-gray-900 hover:text-gray-100 md:mx-2">Contact</a>
+
+                        </div>
+                        <div class="dropdown dropdown-end">
+                            <label tabindex="0" class="btn btn-ghost btn-circle">
+                                <div class="indicator">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                                    <span class="badge badge-sm indicator-item">8</span>
+                                </div>
+                            </label>
+                            <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
+                                <div class="card-body">
+                                    <span class="font-bold text-lg">8 Items</span>
+                                    <span class="text-info">Subtotal: $999</span>
+                                    <div class="card-actions">
+                                        <button class="btn btn-primary btn-block">View cart</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
