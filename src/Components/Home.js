@@ -7,6 +7,7 @@ import Partner from './Partner';
 import Products from './Products/Products';
 import Products2 from './Products/Products2';
 import SideBar from './Products/SideBar';
+import Watch from './Watch';
 import Womens from './Womens/Womens';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Coco />
             <Partner />
             <Womens />
+            <Watch />
         </div>
     );
 };

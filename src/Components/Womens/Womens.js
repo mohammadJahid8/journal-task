@@ -5,6 +5,9 @@ import sharee3 from '../../images/products/3.png'
 import sharee4 from '../../images/products/4.png'
 import sharee5 from '../../images/products/5.png'
 import sharee6 from '../../images/products/6.png'
+import hm from '../../images/products/hm.png'
+import lo from '../../images/products/lo.png'
+import lv from '../../images/products/lv.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
@@ -117,6 +120,12 @@ const Womens = () => {
                             Add To Cart</button>
                     </div>
                 </div>
+            </div>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 rounded pt-14 gap-y-4'>
+                <img src={lo} alt="" />
+                <img src={hm} alt="" />
+                <img src={lv} alt="" />
             </div>
         </div>
     );
