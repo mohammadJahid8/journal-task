@@ -5,10 +5,10 @@ import product2 from '../../images/products/pdrs2.jpg';
 
 const Products2 = () => {
     return (
-        <div className=" grid grid-cols-1 gap-y-3 md:grid-cols-2 gap-x-8  items-center uppercase pb-5 px-4 md:px-6">
+        <div className=" grid grid-cols-1 gap-y-3 md:grid-cols-2 gap-x-8  items-center uppercase pb-5 pt-6">
             <div
                 style={{ backgroundImage: `url(${product1})` }}
-                className="h-[18rem] bg-no-repeat bg-cover bg-center flex justify-start items-center">
+                className="h-[18rem]  bg-no-repeat bg-cover bg-center flex justify-start items-center ">
                 <div className='pl-12 pt-14 text-white'>
                     <a
                         href="/"
