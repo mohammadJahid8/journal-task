@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import Products2 from './Products2';
 
 const Products = () => {
     return (
@@ -239,10 +240,11 @@ const Products = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
+            <Products2 />
         </>
     );
 };
