@@ -246,6 +246,82 @@ const Products = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="shadow-md">
+                                    <div className="relative flex justify-center items-center  py-12 px-16 border-b-2">
+                                        <img src="https://s.alicdn.com/@sc01/kf/H06dd361e5db144629e3eaf95ca15d6e01.png_480x480.png" alt="mobile" />
+                                    </div>
+
+                                    <div className="flex justify-center mt-3 space-y-3">
+                                        <div>
+                                            <p className="text-lg font-medium leading-4 text-gray-800">Electric Drill</p>
+                                            <p className="text-lg leading-4 text-gray-600 text-center py-4 font-bold">$790</p>
+                                            <p className="text-lg leading-4 text-yellow-500 pb-3">
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="shadow-md">
+                                    <div className="relative flex justify-center items-center  py-12 px-16 border-b-2">
+                                        <img src="https://s.alicdn.com/@sc01/kf/H06dd361e5db144629e3eaf95ca15d6e01.png_480x480.png" alt="mobile" />
+                                    </div>
+
+                                    <div className="flex justify-center mt-3 space-y-3">
+                                        <div>
+                                            <p className="text-lg font-medium leading-4 text-gray-800">Electric Drill</p>
+                                            <p className="text-lg leading-4 text-gray-600 text-center py-4 font-bold">$790</p>
+                                            <p className="text-lg leading-4 text-yellow-500 pb-3">
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="shadow-md">
+                                    <div className="relative flex justify-center items-center  py-12 px-16 border-b-2">
+                                        <img src="https://s.alicdn.com/@sc01/kf/H06dd361e5db144629e3eaf95ca15d6e01.png_480x480.png" alt="mobile" />
+                                    </div>
+
+                                    <div className="flex justify-center mt-3 space-y-3">
+                                        <div>
+                                            <p className="text-lg font-medium leading-4 text-gray-800">Electric Drill</p>
+                                            <p className="text-lg leading-4 text-gray-600 text-center py-4 font-bold">$790</p>
+                                            <p className="text-lg leading-4 text-yellow-500 pb-3">
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="shadow-md">
+                                    <div className="relative flex justify-center items-center  py-12 px-16 border-b-2">
+                                        <img src="https://s.alicdn.com/@sc01/kf/H06dd361e5db144629e3eaf95ca15d6e01.png_480x480.png" alt="mobile" />
+                                    </div>
+
+                                    <div className="flex justify-center mt-3 space-y-3">
+                                        <div>
+                                            <p className="text-lg font-medium leading-4 text-gray-800">Electric Drill</p>
+                                            <p className="text-lg leading-4 text-gray-600 text-center py-4 font-bold">$790</p>
+                                            <p className="text-lg leading-4 text-yellow-500 pb-3">
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                             <Products2 />
