@@ -11,7 +11,7 @@ const Products = () => {
                 <div>
                     <SideBar />
                 </div>
-                <div className="2xl:mx-auto 2xl:container  py-16 flex justify-center">
+                <div className="2xl:mx-auto 2xl:container  pt-16 pb-8 flex justify-center">
                     <div className="fle flex-col justify-center items-center">
                         <div className="flex justify-start items-start border-b-4 border-yellow-500">
                             <p className="text-3xl lg:text-4xl font-semibold leading-9 text-gray-800">Latest Products</p>
