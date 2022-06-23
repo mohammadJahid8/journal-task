@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
 
 
-            <nav className="bg-gray-50 shadow">
+            <nav className="bg-gray-50 shadow mb-4">
                 <div className="container px-6 md:px-2 py-3 mx-auto md:flex">
                     <div className="flex items-center justify-between">
                         <div>
@@ -36,7 +36,7 @@ const Navbar = () => {
                                 </svg>
                             </button>
                         </div>
-                    </div>
+                    </div> 
                     <div className={open ? "w-full md:flex md:items-center md:justify-end" : "w-full md:flex md:items-center md:justify-end hidden"}>
 
                         <div className="relative ml-12">
@@ -77,6 +77,27 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
+
+            <div class="navbar -my-4  px-6 md:px-10 mx-auto bg-blue-600">
+                <div class="flex-1">
+                    <ul class=" menu-horizontal p-0">
+                        <li><a className='px-2 py-[22.8px] text-sm font-medium text-gray-800 transition-colors duration-200 transform hover:text-yellow-300 hover:cursor-pointer md:mx-2 bg-yellow-300'>Top Products</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Trendings</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Trendings</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Trendings</a></li>
+                    </ul>
+                </div>
+                <div class="flex-none">
+                    <ul class=" menu-horizontal p-0">
+                        <li><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Blogs</a></li>
+                        <li><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="  mx-auto bg-blue-600 mt-6 text-base-100 pl-2">
+                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maiores. Totam, quia quisquam nesciunt animi aliquid magnam fugiat optio, quo laboriosam assumenda ab fuga odio tenetur?</h2>
+            </div>
 
         </>
     );
