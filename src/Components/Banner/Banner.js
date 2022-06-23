@@ -5,7 +5,7 @@ import earphone from '../../images/home/image-earphones-yx1.jpg'
 const Banner = () => {
     return (
         <>
-            <div className="mt-2 grid  grid-cols-[2fr,1fr] gap-4 px-2 rounded">
+            <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 px-2 rounded">
 
                 <div className="mb-8 uppercase ">
                     <div
