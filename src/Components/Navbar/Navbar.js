@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div class="flex-none">
                     <ul class=" menu-horizontal p-0">
-                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Blogs</a></li>
+                        <li><a href="#blogs" className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Blogs</a></li>
                         <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>About Us</a></li>
                     </ul>
                 </div>
@@ -89,9 +89,9 @@ const Navbar = () => {
                 <div class="flex-1">
                     <ul class=" menu-horizontal p-0">
                         <li className='bg-yellow-300 py-6'><a className='px-2  text-sm font-medium text-gray-800 transition-colors duration-200 transform hover:text-white hover:cursor-pointer md:mx-2 py-96'>Top Products</a></li>
-                        <li className=' py-6'><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Electronics</a></li>
-                        <li className=' py-6'><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Tools</a></li>
-                        <li className=' py-6'><a className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Fashion</a></li>
+                        <li className=' py-6'><a href='#electronics' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Electronics</a></li>
+                        <li className=' py-6'><a href='#tools' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Tools</a></li>
+                        <li className=' py-6'><a href='#fashion' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Fashion</a></li>
                     </ul>
                 </div>
                 <div class="flex-none">

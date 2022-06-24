@@ -5,7 +5,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Watch = () => {
     return (
         <div>
-            <div className='bg-gray-50 py-8 px-6'>
+            <div className='bg-gray-50 py-8 px-6' id='electronics'>
                 <h1 className='text-center text-gray-800 py-3 font-bold text-3xl'>Watch Collections</h1>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-6 gap-x-4">
                     <div className="    rounded-md shadow-md bg-white text-gray-800 ">

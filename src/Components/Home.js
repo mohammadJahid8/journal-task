@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import Blogs from './Blogs';
 import Catagories from './Catagories/Catagories';
 import Coco from './Coco';
+import Footer from './Footer';
 import Hero from './Hero';
 import Navbar from './Navbar/Navbar';
 import Partner from './Partner';
@@ -27,6 +28,7 @@ const Home = () => {
             <Hero />
             <Womens2 />
             <Blogs />
+            <Footer />
         </div>
     );
 };

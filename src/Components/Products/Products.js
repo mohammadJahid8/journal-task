@@ -7,7 +7,7 @@ import SideBar from './SideBar';
 const Products = () => {
     return (
         <>
-            <div className="grid grid-cols-1 gap-x-8 md:grid-cols-[1fr,4fr] px-4 md:px-8 2xl:px-0">
+            <div id='tools' className="grid grid-cols-1 gap-x-8 md:grid-cols-[1fr,4fr] px-4 md:px-8 2xl:px-0">
                 <div>
                     <SideBar />
                 </div>
