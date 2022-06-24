@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
             <div className="hidden md:block">
-                <div class="navbar justify-between bg-base-100 -my-3.5  px-6 md:px-8 ">
+                <div class="navbar justify-between bg-base-100 -my-3.5  px-6 md:px-8">
                     <div>
                         <ul class=" menu-horizontal p-0">
                             <li><a className='px-2 py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
@@ -186,7 +186,7 @@ const Navbar = () => {
                                     <FontAwesomeIcon icon={faBarsStaggered} className="mr-1" />
                                     All Department
                                     <Submenu1 />
-                                    <span class="badge badge-sm absolute -top-1">New</span>
+                                    <span class="badge rounded-none bg-red-500 border-none badge-sm absolute -top-2 right-3">New</span>
                                 </a>
                             </li>
                             <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
