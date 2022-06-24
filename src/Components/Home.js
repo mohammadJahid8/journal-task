@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import Catagories from './Catagories/Catagories';
 import Coco from './Coco';
+import Hero from './Hero';
 import Navbar from './Navbar/Navbar';
 import Partner from './Partner';
 import Products from './Products/Products';
@@ -21,6 +22,7 @@ const Home = () => {
             <Partner />
             <Womens />
             <Watch />
+            <Hero />
         </div>
     );
 };
