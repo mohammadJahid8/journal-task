@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner/Banner';
+import Blogs from './Blogs';
 import Catagories from './Catagories/Catagories';
 import Coco from './Coco';
 import Hero from './Hero';
@@ -25,6 +26,7 @@ const Home = () => {
             <Watch />
             <Hero />
             <Womens2 />
+            <Blogs />
         </div>
     );
 };
