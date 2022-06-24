@@ -67,7 +67,7 @@ const Hero = () => {
 
             <div
                 style={{ backgroundImage: `url(${camera})` }}
-                className="h-[27rem] md:w-80 w-full bg-no-repeat bg-cover bg-center flex justify-start items-end  rounded-xl mb-44">
+                className="h-[27rem] md:w-80 w-full bg-no-repeat bg-cover bg-center flex justify-start items-end  rounded-xl mb-10">
                 <div className='pl-20 py-10 text-white'>
                     <h2 className='tracking-wider text-xl pb-1'>Canon Camera</h2>
                     <p className="font-bold text-3xl pb-2">Lorem ipsum
