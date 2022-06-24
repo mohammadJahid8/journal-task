@@ -26,7 +26,7 @@ const Womens2 = () => {
                     </div>
                     <div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-6 gap-x-8">
-                            <div className="    rounded-md shadow-md bg-white text-gray-800 ">
+                            <div className="hover:-translate-y-1    rounded-md shadow-md bg-white text-gray-800 ">
                                 <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12595594/2020/10/15/b6e22b58-3450-468f-afeb-3218b6ce7acb1602737925709SareemallNavyBluePolyChiffonSolidEthnicPartywearSareewithMat1.jpg" alt="" className="object-cover object-center rounded-t-md h-48 w-full" />
                                 <div className="flex flex-col justify-between  space-y-2">
                                     <div className="p-2">
@@ -39,7 +39,7 @@ const Womens2 = () => {
                                         Add To Cart</button>
                                 </div>
                             </div>
-                            <div className="    rounded-md shadow-md bg-white text-gray-800 ">
+                            <div className=" hover:-translate-y-1   rounded-md shadow-md bg-white text-gray-800 ">
                                 <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10856160/2019/11/5/f0172470-408a-4b8b-a1e5-045bd98a5f8b1572938035104-SASSAFRAS-Women-Dresses-9581572938032856-1.jpg" alt="" className="object-cover object-center  rounded-t-md h-48 w-full" />
                                 <div className="flex flex-col justify-between  space-y-2">
                                     <div className="p-2">
@@ -52,7 +52,7 @@ const Womens2 = () => {
                                         Add To Cart</button>
                                 </div>
                             </div>
-                            <div className="    rounded-md shadow-md bg-white text-gray-800 ">
+                            <div className=" hover:-translate-y-1   rounded-md shadow-md bg-white text-gray-800 ">
                                 <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/9/16/25f5b6a7-ce25-4e66-8a61-3aa2037b6c741600207614629-1.jpg" alt="" className="object-cover object-center h-48 w-full rounded-t-md " />
                                 <div className="flex flex-col justify-between  space-y-2">
                                     <div className="p-2">
@@ -65,7 +65,7 @@ const Womens2 = () => {
                                         Add To Cart</button>
                                 </div>
                             </div>
-                            <div className="    rounded-md shadow-md bg-white text-gray-800 ">
+                            <div className="  hover:-translate-y-1  rounded-md shadow-md bg-white text-gray-800 ">
                                 <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/13581134/2021/11/18/77d98e7f-75f2-4dcf-bea2-443a837e95b71637229080165-SASSAFRAS-Dusty-Pink-Self-Design-Dobby-Weave-Wrap-Dress--Bel-1.jpg" alt="" className="object-cover object-center h-48 w-full rounded-t-md " />
                                 <div className="flex flex-col justify-between  space-y-2">
                                     <div className="p-2">

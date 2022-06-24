@@ -9,7 +9,7 @@ const Blogs = () => {
                     <div className="overflow-hidden transition-shadow duration-300  rounded shadow-sm bg-white">
                         <img
                             src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-                            className="object-cover w-full h-64"
+                            className="object-cover w-full h-64 transition duration-500 hover:scale-105"
                             alt=""
                         />
                         <div className="p-5 border border-t-0">
@@ -49,7 +49,7 @@ const Blogs = () => {
                     <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                         <img
                             src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                            className="object-cover w-full h-64"
+                            className="object-cover w-full h-64 transition duration-500 hover:scale-105"
                             alt=""
                         />
                         <div className="p-5 border border-t-0">
@@ -89,7 +89,7 @@ const Blogs = () => {
                     <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                         <img
                             src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                            className="object-cover w-full h-64"
+                            className="object-cover w-full h-64 transition duration-500 hover:scale-105"
                             alt=""
                         />
                         <div className="p-5 border border-t-0">

@@ -14,59 +14,59 @@ const Catagories = () => {
                     </div>
 
                     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7  justify-items-around gap-x-2 gap-y-4 xl:gap-x-2 mt-10">
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faScrewdriverWrench} className=" h-12" />
                             <p className='font-bold pt-6 text-xl'>Tools</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faAnchor} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Anchor</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faHammer} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Hammer</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faToolbox} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Tool Box</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faTrowel} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Trowel</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faWrench} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Wrench</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faHeadphones} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Headphones</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faTShirt} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Tshirt</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faSpeakerDeck} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>SpeakerDeck</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faMobile} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Mobile</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faComputerMouse} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Mouse</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faCar} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Car</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faMotorcycle} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Motor Cycle</p>
                         </div>
-                        <div className="shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
+                        <div className="hover:shadow-lg shadow w-full focus:outline-none border focus:border-gray-800 border-transparent bg-base-100 flex justify-center items-center flex-col text-center py-2 px-12 space-y-6">
                             <FontAwesomeIcon icon={faTruck} className="  h-12" />
                             <p className='font-bold pt-6 text-xl'>Truck</p>
                         </div>
