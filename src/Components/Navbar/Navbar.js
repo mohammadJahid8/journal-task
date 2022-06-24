@@ -1,25 +1,62 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleUser, faComments, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser, faComments, faPhone, faEnvelope, faHouse, faFilePrescription, faCircleQuestion, faCaretDown, faLanguage, faSignLanguage, faDollarSign, faRectangleList, faTruckFast } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     const [open, setIsOpen] = useState(false);
     console.log(open);
 
     return (
         <>
-            <div class="navbar bg-base-100 -my-4 container px-6 md:px-2 mx-auto">
-                <div class="flex-1">
+            <div class="navbar justify-between bg-base-100 -my-3.5 container px-6 md:px-1 mx-auto">
+
+                <div>
                     <ul class=" menu-horizontal p-0">
-                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Top Products</a></li>
-                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Trendings</a></li>
+                        <li><a className='px-2 py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                            <FontAwesomeIcon icon={faHouse} className='mr-1' />
+                            Home</a></li>
+                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1'>
+                            <FontAwesomeIcon icon={faFilePrescription} className='mr-1' />
+                            About Us</a></li>
+                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2.5'>
+                            <FontAwesomeIcon icon={faEnvelope} className='mr-1' />
+                            Email</a></li>
+                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1'>
+                            <FontAwesomeIcon icon={faCircleQuestion} className='mr-1' />
+                            FAQ
+                            <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
+
+                        </a></li>
                     </ul>
                 </div>
-                <div class="flex-none">
+                <div class="">
                     <ul class=" menu-horizontal p-0">
-                        <li><a href="#blogs" className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>Blogs</a></li>
-                        <li><a className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>About Us</a></li>
+                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                            <FontAwesomeIcon icon={faLanguage} className='mr-1' />
+                            English
+                            <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
+                        </a></li>
+                        <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:ml-1'>
+                            <FontAwesomeIcon icon={faDollarSign} className=' mr-1' />
+                            US Dollar
+                            <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
+
+                        </a></li>
                     </ul>
                 </div>
+                <div class="">
+                    <ul class=" menu-horizontal p-0">
+                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                            <FontAwesomeIcon icon={faRectangleList} className='mr-1' />
+                            More Menus
+                            <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
+                        </a></li>
+                        <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                        <FontAwesomeIcon icon={faTruckFast} className='mr-1' />
+                            Delivery</a></li>
+                    </ul>
+                </div>
+
+
             </div>
 
 
@@ -88,7 +125,7 @@ const Navbar = () => {
             <div class="navbar -my-4 py-0  px-4 md:px-6 md:px-10  bg-blue-700">
                 <div class="flex-1">
                     <ul class=" menu-horizontal p-0">
-                        <li className='bg-yellow-300 py-6'><a className='px-2  text-sm font-medium text-gray-800 transition-colors duration-200 transform hover:text-white hover:cursor-pointer md:mx-2 py-96'>Top Products</a></li>
+                        <li className='bg-yellow-300 py-6'><a className='px-2  text-sm font-medium text-gray-800 transition-colors duration-200 transform hover:text-white hover:cursor-pointer md:mx-2'>Top Products</a></li>
                         <li className=' py-6'><a href='#electronics' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Electronics</a></li>
                         <li className=' py-6'><a href='#tools' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Tools</a></li>
                         <li className=' py-6'><a href='#fashion' className='px-2 py-1 text-sm font-medium text-white transition-colors duration-200 transform rounded  hover:text-yellow-300 hover:cursor-pointer md:mx-2'>Fashion</a></li>
