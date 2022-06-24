@@ -10,6 +10,7 @@ import Partner from './Partner';
 import Products from './Products/Products';
 import Products2 from './Products/Products2';
 import SideBar from './Products/SideBar';
+import Stat from './Stat';
 import Watch from './Watch';
 import Womens from './Womens/Womens';
 import Womens2 from './Womens/Womens2';
@@ -19,6 +20,7 @@ const Home = () => {
         <div>
             <Navbar />
             <Banner />
+            <Stat />
             <Catagories />
             <Products />
             <Coco />

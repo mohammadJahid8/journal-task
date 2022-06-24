@@ -1,40 +1,86 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser, faComments, faPhone, faEnvelope, faHouse, faFilePrescription, faCircleQuestion, faCaretDown, faLanguage, faSignLanguage, faDollarSign, faRectangleList, faTruckFast, faShoppingCart, faUserPlus, faHeart, faArrowsLeftRight, faArrowRightArrowLeft, faBarsProgress, faBarChart, faBarsStaggered, faMessage } from '@fortawesome/free-solid-svg-icons';
+import Submenu1 from './Submenu1';
 const Navbar = () => {
     const [open, setIsOpen] = useState(false);
     console.log(open);
 
     return (
         <>
-            <div class="navbar justify-between bg-base-100 -my-3.5 container px-6 md:px-1 mx-auto">
-                <div>
-                    <ul class=" menu-horizontal p-0">
-                        <li><a className='px-2 py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
-                            <FontAwesomeIcon icon={faHouse} className='mr-1' />
-                            Home</a></li>
-                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1'>
-                            <FontAwesomeIcon icon={faFilePrescription} className='mr-1' />
-                            About Us</a></li>
-                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2.5'>
-                            <FontAwesomeIcon icon={faEnvelope} className='mr-1' />
-                            Email</a></li>
-                        <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1'>
-                            <FontAwesomeIcon icon={faCircleQuestion} className='mr-1' />
-                            FAQ
-                            <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
+            <div className="hidden md:block">
+                <div class="navbar justify-between bg-base-100 -my-3.5  px-6 md:px-8 ">
+                    <div>
+                        <ul class=" menu-horizontal p-0">
+                            <li><a className='px-2 py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                                <FontAwesomeIcon icon={faHouse} className='mr-1' />
+                                Home</a></li>
+                            <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1'>
+                                <FontAwesomeIcon icon={faFilePrescription} className='mr-1' />
+                                About Us</a></li>
+                            <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2.5'>
+                                <FontAwesomeIcon icon={faEnvelope} className='mr-1' />
+                                Email</a></li>
+                            <li><a className=' py-1 text-sm  text-[#696973] transition-colors duration-200  rounded  hover:text-blue-500 hover:cursor-pointer md:mx-1 nav__menu-item'>
+                                <FontAwesomeIcon icon={faCircleQuestion} className='mr-1' />
+                                FAQ
+                                <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
+                                <Submenu1 />
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class=" menu-horizontal p-0">
+                            <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                                <FontAwesomeIcon icon={faLanguage} className='mr-1' />
+                                English
+                                <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
+                            </a></li>
+                            <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:ml-1'>
+                                <FontAwesomeIcon icon={faDollarSign} className=' mr-1' />
+                                US Dollar
+                                <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
 
-                        </a></li>
-                    </ul>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class=" menu-horizontal p-0">
+                            <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                                <FontAwesomeIcon icon={faRectangleList} className='mr-1' />
+                                More Menus
+                                <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
+                            </a></li>
+                            <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                                <FontAwesomeIcon icon={faTruckFast} className='mr-1' />
+                                Delivery</a></li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+
+
+            <div class="flex justify-between items-center pt-5 md:pt-2 pb-6 -my-3.5 px-4 md:px-4 bg-blue-600 md:hidden">
                 <div class="">
                     <ul class=" menu-horizontal p-0">
-                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
+                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-white transition-colors duration-200 transform rounded  hover:cursor-pointer md:mx-2'>
+                            <FontAwesomeIcon icon={faCircleUser} className='mr-1' />
+                            Login
+                        </a></li>
+                        <li><a className=' py-1 text-sm  text-white transition-colors duration-200 transform rounded   hover:cursor-pointer md:mx-2'>
+                            <FontAwesomeIcon icon={faUserPlus} className='mr-1' />
+                            Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <ul class=" menu-horizontal p-0">
+                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-white transition-colors duration-200 transform rounded   hover:cursor-pointer md:mx-2'>
                             <FontAwesomeIcon icon={faLanguage} className='mr-1' />
                             English
                             <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
                         </a></li>
-                        <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:ml-1'>
+                        <li><a className=' py-1 text-sm  text-white transition-colors duration-200 transform rounded   hover:cursor-pointer md:ml-1'>
                             <FontAwesomeIcon icon={faDollarSign} className=' mr-1' />
                             US Dollar
                             <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
@@ -42,18 +88,7 @@ const Navbar = () => {
                         </a></li>
                     </ul>
                 </div>
-                <div class="">
-                    <ul class=" menu-horizontal p-0">
-                        <li><a href="#blogs" className='px-2 py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
-                            <FontAwesomeIcon icon={faRectangleList} className='mr-1' />
-                            More Menus
-                            <FontAwesomeIcon icon={faCaretDown} className='h-3 ml-1' />
-                        </a></li>
-                        <li><a className=' py-1 text-sm  text-gray-700 transition-colors duration-200 transform rounded  hover:text-blue-500 hover:cursor-pointer md:mx-2'>
-                            <FontAwesomeIcon icon={faTruckFast} className='mr-1' />
-                            Delivery</a></li>
-                    </ul>
-                </div>
+
             </div>
 
 
@@ -139,38 +174,49 @@ const Navbar = () => {
 
 
 
-            <div class="flex justify-between py-[10px] px-6 md:px-8 -my-4 bg-[#0d52d6] text-white uppercase font-medium mb-6 tracking-wide shadow-md">
-                <div>
-                    <ul class=" menu-horizontal ">
-                        <li><a className='bg-[#fed430] pb-[12px] pt-[13px] px-6 pl-4 pr-9 text-sm   transition-colors duration-200 transform hover:bg-gray-100   hover:cursor-pointer  text-black'>
-                            <FontAwesomeIcon icon={faBarsStaggered} className='mr-1' />
-                            All Department</a></li>
-                        <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
+            <div className='hidden md:block '>
+                <div class="flex justify-between py-[10px] px-6 md:px-8 -my-4 bg-[#0d52d6] text-white uppercase font-medium mb-6 tracking-wide shadow-md">
+                    <div >
+                        <ul class=" menu-horizontal ">
+                            <li>
+                                <a
+                                    href="/"
+                                    className="bg-[#fed430] pb-[12px] pt-[13px] px-6 pl-4 pr-9 text-sm   transition-colors duration-200 transform hover:bg-gray-100   hover:cursor-pointer  text-black relative nav__menu-item"
+                                >
+                                    <FontAwesomeIcon icon={faBarsStaggered} className="mr-1" />
+                                    All Department
+                                    <Submenu1 />
+                                    <span class="badge badge-sm absolute -top-1">New</span>
+                                </a>
+                            </li>
+                            <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
 
-                            Multi Level</a></li>
-                        <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
+                                Multi Level</a></li>
+                            <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer relative'>
+                                Mega Menu
+                                <span class="badge badge-xs text-xs bg-[#fed430] text-black border-none p-2 rounded-none absolute -top-2 right-3 ">New</span>
+                            </a></li>
+                            <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
 
-                            Mega Menu</a></li>
-                        <li><a className='hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] px-4 text-sm   transition-colors duration-200 transform   hover:text-blue-500 hover:cursor-pointer '>
+                                Full width
+                                <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
 
-                            Full width
-                            <FontAwesomeIcon icon={faCaretDown} className='h-3 pt-1 ml-1' />
+                            </a></li>
+                        </ul>
+                    </div>
 
-                        </a></li>
-                    </ul>
-                </div>
+                    <div class="">
+                        <ul class=" menu-horizontal p-0 text-white uppercase">
+                            <li><a href="#blogs" className='px-4 text-sm transition-colors duration-200 transform  hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] hover:text-blue-500 hover:cursor-pointer '>
+                                <FontAwesomeIcon icon={faPhone} className='mr-1' />
+                                18005556789
 
-                <div class="">
-                    <ul class=" menu-horizontal p-0 text-white uppercase">
-                        <li><a href="#blogs" className='px-4 text-sm transition-colors duration-200 transform  hover:bg-gray-100 hover:text-black pb-[12px] pt-[13px] hover:text-blue-500 hover:cursor-pointer '>
-                            <FontAwesomeIcon icon={faPhone} className='mr-1' />
-                            18005556789
-
-                        </a></li>
-                        <li><a className=' pb-[12px] pt-[13px] px-6 text-sm   transition-colors duration-200 transform hover:bg-gray-100 hover:text-black hover:text-blue-500 hover:cursor-pointer  text-black bg-[#fed430]'>
-                            <FontAwesomeIcon icon={faMessage} className='mr-1' />
-                            Blog</a></li>
-                    </ul>
+                            </a></li>
+                            <li><a className=' pb-[12px] pt-[13px] px-6 text-sm   transition-colors duration-200 transform hover:bg-gray-100 hover:text-black hover:text-blue-500 hover:cursor-pointer  text-black bg-[#fed430]'>
+                                <FontAwesomeIcon icon={faMessage} className='mr-1' />
+                                Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

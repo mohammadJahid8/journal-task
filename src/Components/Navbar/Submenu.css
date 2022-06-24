@@ -1,0 +1,40 @@
+.nav__submenu {
+    display: none;
+    z-index: 50;
+}
+
+.nav__menu-item:hover .nav__submenu {
+    display: block;
+}
+
+.nav__menu-item {
+    position: relative;
+}
+
+.nav__menu-item:hover {
+    background-color: white;
+}
+
+.nav__menu-item:hover .nav__submenu {
+    display: block;
+}
+
+.nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    background-color: white;
+    box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.2);
+}
+
+.nav__submenu-item {
+    padding: 1rem 2rem;
+}
+
+.nav__submenu-item:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
