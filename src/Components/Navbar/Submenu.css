@@ -1,6 +1,6 @@
 .nav__submenu {
     display: none;
-    z-index: 50;
+
 }
 
 .nav__menu-item:hover .nav__submenu {
@@ -9,6 +9,7 @@
 
 .nav__menu-item {
     position: relative;
+    z-index: 10000;
 }
 
 .nav__menu-item:hover {

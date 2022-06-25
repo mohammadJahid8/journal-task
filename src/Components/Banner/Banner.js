@@ -10,8 +10,8 @@ import Banner1 from './Banner1';
 const Banner = () => {
     return (
         <>
-            <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 px-4 md:px-8 rounded">
-                <div className="mb-8">
+            <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 px-4 md:px-8 rounded z-0">
+                <div className="mb-8 ">
                     {/* <div
                         style={{ backgroundImage: `url(${b2})` }}
                         className="h-[32rem] bg-no-repeat bg-cover bg-center flex justify-start items-center rounded-2xl">
