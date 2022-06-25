@@ -10,7 +10,7 @@ import Banner1 from './Banner1';
 const Banner = () => {
     return (
         <>
-            <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 px-4 md:px-8 rounded z-0">
+            <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr]  px-4 md:px-8 rounded z-0">
                 <div className="mb-8 ">
                     {/* <div
                         style={{ backgroundImage: `url(${b2})` }}
@@ -32,24 +32,23 @@ const Banner = () => {
 
 
 
-                <div className=" grid gap-x-8  items-center pb-5">
+                <div className="flex lg:flex-col items-center gap-y-7 gap-x-3">
 
-
-                    <div className="bg-gray-100 hover:bg-gray-300 bg-no-repeat bg-cover bg-center  mb-4 flex justify-start h-[16rem] rounded-2xl"
+                    <div className="bg-gray-100 hover:bg-gray-300 bg-no-repeat bg-cover bg-center flex justify-start h-[15rem] w-64 lg:w-96 rounded-2xl"
                         style={{ backgroundImage: `url(${watch})` }}>
 
-                        <div className='pl-12 lg:pl-8 pt-12'>
+                        <div className='pl-6 md:pl-12 lg:pl-8 pt-12'>
                             <h2 className='tracking-wider pb-2 uppercase text-blue-500'>Wearables</h2>
-                            <p className='font-bold text-2xl'>Intelligent
+                            <p className='font-bold md:text-2xl'>Intelligent
                                 <br /> & Durable
                                 <br /> Design</p>
                         </div>
                     </div>
-                    <div className="bg-gray-100 hover:bg-gray-300 bg-no-repeat bg-cover bg-center  mb-4 flex justify-start h-[15rem] rounded-2xl"
+                    <div className="bg-gray-100 hover:bg-gray-300 bg-no-repeat bg-cover bg-center flex justify-start h-[15rem] w-64 lg:w-96 rounded-2xl"
                         style={{ backgroundImage: `url(${computer})` }}>
-                        <div className='pl-12 lg:pl-8 pt-12'>
+                        <div className='pl-6 md:pl-12 lg:pl-8 pt-12'>
                             <h2 className='tracking-wider pb-2 uppercase text-blue-500'>Wearables</h2>
-                            <p className='font-bold text-2xl'>Intelligent
+                            <p className='font-bold md:text-2xl'>Intelligent
                                 <br /> & Durable
                                 <br /> Design</p>
                         </div>

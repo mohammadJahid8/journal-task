@@ -1,3 +1,8 @@
-.cap-style{
+.cap-style {
     text-shadow: none;
+}
+
+.carousel-caption-bottom {
+    top: 50%;
+    transform: translateY(-50%) ;
 }
