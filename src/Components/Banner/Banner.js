@@ -4,6 +4,7 @@ import b2 from '../../images/products/b2.png'
 import b3 from '../../images/products/b3.png'
 import watch from '../../images/products/b4.png'
 import computer from '../../images/products/b5.png'
+import Banner1 from './Banner1';
 
 
 const Banner = () => {
@@ -11,7 +12,7 @@ const Banner = () => {
         <>
             <div className="mt-8 md:mt-2  grid grid-cols-1 md:grid-cols-[2fr,1fr] gap-4 px-4 md:px-8 rounded">
                 <div className="mb-8">
-                    <div
+                    {/* <div
                         style={{ backgroundImage: `url(${b2})` }}
                         className="h-[32rem] bg-no-repeat bg-cover bg-center flex justify-start items-center rounded-2xl">
                         <div className='pl-12'>
@@ -23,11 +24,12 @@ const Banner = () => {
                                 className="btn btn-outline pb-8 pt-5 px-7 rounded-none "
                             >See Product</a>
                         </div>
-                    </div>
+                    </div> */}
+                    <Banner1 />
                 </div>
 
 
-                
+
 
 
                 <div className=" grid gap-x-8  items-center pb-5">

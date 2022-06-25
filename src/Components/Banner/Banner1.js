@@ -1,99 +1,77 @@
-import React from 'react';
+import { Carousel } from 'react-carousel-minimal';
+import b1 from '../../images/products/b1.png'
+import b2 from '../../images/products/b2.png'
+import b3 from '../../images/products/b3.png'
 
 const Banner1 = () => {
+    const data = [
+        {
+            image: "https://www.journal-theme.com/1/image/cache/catalog/journal3/slider/demo1/s1-960x450h.png.webp",
+            caption: `<div>
+            <p>Layouts</p>
+            <h2>Sound That Goes <br /> Straight to Your heart</h2>
+            <a
+                href="/"
+                aria-label=""
+               
+            >See Product</a>
+        </div>`
+        },
+        {
+            image: "https://www.journal-theme.com/1/image/cache/catalog/journal3/slider/demo1/s3-960x450h.png.webp",
+            caption: "Scotland"
+        },
+        {
+            image: "https://www.journal-theme.com/1/image/cache/catalog/journal3/slider/demo1/s2-960x450h.png.webp",
+            caption: "Darjeeling"
+        }
+
+    ];
+
+    const captionStyle = {
+        fontSize: '2em',
+        fontWeight: 'bold',
+    }
+    const slideNumberStyle = {
+        fontSize: '20px',
+        fontWeight: 'bold',
+    }
     return (
-        <div>
-            <div
-                id="carouselDarkVariant"
-                class="carousel slide carousel-fade carousel-dark relative"
-                data-bs-ride="carousel"
-            >
-                {/* <!-- Indicators --> */}
-                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-                    <button
-                        data-bs-target="#carouselDarkVariant"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                    ></button>
-                    <button
-                        data-bs-target="#carouselDarkVariant"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 1"
-                    ></button>
-                    <button
-                        data-bs-target="#carouselDarkVariant"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 1"
-                    ></button>
-                </div>
+        <div style={{ textAlign: "center" }}>
 
-                {/* <!-- Inner --> */}
-                <div class="carousel-inner relative w-full overflow-hidden">
-                    {/* <!-- Single item --> */}
-                    <div class="carousel-item active relative float-left w-full">
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
-                            class="block w-full"
-                            alt="Motorbike Smoke"
-                        />
-                        <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-
-                    {/* <!-- Single item --> */}
-                    <div class="carousel-item relative float-left w-full">
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
-                            class="block w-full"
-                            alt="Mountaintop"
-                        />
-                        <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-
-                    {/* <!-- Single item --> */}
-                    <div class="carousel-item relative float-left w-full">
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
-                            class="block w-full"
-                            alt="Woman Reading a Book"
-                        />
-                        <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- Inner -->
-
-                    <!-- Controls --> */}
-                <button
-                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-                    type="button"
-                    data-bs-target="#carouselDarkVariant"
-                    data-bs-slide="prev"
+            <div style={{
+                padding: "0 5px"
+            }}>
+                <Carousel
+                    data={data}
+                    time={10000}
+                    width="850px"
+                    height="510px"
+                    captionStyle={captionStyle}
+                    radius="10px"
+                    // slideNumber={true}
+                    slideNumberStyle={slideNumberStyle}
+                    captionPosition="bottom"
+                    automatic={true}
+                    dots={true}
+                    pauseIconColor="white"
+                    pauseIconSize="40px"
+                    slideBackgroundColor="darkgrey"
+                    slideImageFit="cover"
+                    // thumbnails={true}
+                    // thumbnailWidth="100px"
+                    style={{
+                        textAlign: "center",
+                        maxWidth: "850px",
+                        maxHeight: "500px",
+                        margin: "",
+                    }}
                 >
-                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-                    type="button"
-                    data-bs-target="#carouselDarkVariant"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+
+                </Carousel>
             </div>
         </div>
     );
 };
-
 export default Banner1;
